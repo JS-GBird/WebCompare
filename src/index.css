@@ -24,3 +24,20 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+.missing {
+  color: red !important;
+}
+
+.redirected {
+  color: orange !important;
+}
+
+.added {
+  color: green !important;
+}
+
+.redirect-info {
+  font-style: italic;
+  margin-left: 5px;
+}

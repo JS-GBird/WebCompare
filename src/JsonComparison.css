@@ -13,8 +13,8 @@ body {
 }
 
 .input-section {
-  padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .compare-icon {
@@ -52,12 +52,11 @@ body {
 }
 
 .missing {
-  color: #e74c3c;
-  text-decoration: line-through;
+  color: red;
 }
 
 .added {
-  color: #2ecc71;
+  color: green;
 }
 
 ul {
@@ -75,8 +74,8 @@ li {
 }
 
 .error-section {
-  padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .MuiAccordionSummary-root {
@@ -85,4 +84,55 @@ li {
 
 .MuiAccordionDetails-root {
   padding: 1rem !important;
+}
+
+.redirected {
+  color: orange !important;
+}
+
+.redirect-arrow {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.comparison-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comparison-column {
+  width: 48%;
+}
+
+.accordion-content {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.redirect-info {
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.result-section {
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.MuiAccordion-root {
+  margin-bottom: 10px;
+}
+
+.MuiAccordionSummary-content {
+  flex-grow: 1;
+}
+
+.MuiAccordionDetails-root ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.MuiAccordionDetails-root li {
+  margin-bottom: 5px;
 }
